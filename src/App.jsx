@@ -1,14 +1,14 @@
-import gif from './assets/images/hi-gif-2.gif'
-import './App.css'
+import './App.css';
+import Main from './pages/main/Main';
 
 function App() {
-  return (
-    <>
-      <div>
-        <img src={gif} alt='image' />
-      </div>
-    </>
-  )
+	return (
+		<>
+			<div>
+				<Main />
+			</div>
+		</>
+	);
 }
 
-export default App
+export default App;
