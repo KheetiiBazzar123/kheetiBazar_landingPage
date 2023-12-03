@@ -1,5 +1,5 @@
 import './App.css';
-
+import './assets/css/style.css';
 import Main from './pages/main/Main';
 import Footer from './pages/footer/Footer';
 import About from './pages/about/About';
@@ -10,8 +10,8 @@ function App() {
 	return (
 		<>
 			<Header />
-			{/* <Main />
-			<Footer /> */}
+			{/* <Main /> */}
+			<Footer />
 		</>
 	);
 }
