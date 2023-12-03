@@ -1,0 +1,26 @@
+
+/* Here you need to copy past the root css from existing project */
+
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel');
+/*
+variables
+*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*  */
+:root {
+	--clr-primary: #5a8a26;
+	--clr-primary-light: #beed8c;
+	--clr-grey-1: #102a42;
+	--clr-grey-5: #617d98;
+	--clr-grey-10: #f1f5f8;
+	--clr-white: #fff;
+	--ff-primary: 'Catamaran', sans-serif;
+	--ff-secondary: 'Grand Hotel', cursive;
+	--transition: all 0.3s linear;
+	--spacing: 0.25rem;
+	--radius: 0.5rem;
+}

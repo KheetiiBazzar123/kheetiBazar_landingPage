@@ -1,4 +1,5 @@
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
+import { Row, Stack } from 'react-bootstrap/esm';
 
 const Header = () => {
 	return (
