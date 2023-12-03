@@ -23,7 +23,7 @@ const About = () => {
 						<div className="about-subsection-content">
 							<h3>Company Details</h3>
 							<p>
-								TSPK KHEETII BAZAAR31 SERVICES PRIVATE LIMITED is an Agri Tech company specializing in Post-harvesting Solutions for
+								TSPK KHEETII BAZAAR31 SERVICES PRIVATE LIMITED is an Agricultural Tech company specializing in Post-harvesting Solutions for
 								farmers. We provide technology and supply chain facilities to address the challenges faced by farmers in the current
 								agricultural marketing system.
 							</p>
