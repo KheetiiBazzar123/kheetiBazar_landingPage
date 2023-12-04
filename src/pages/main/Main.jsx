@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button, Card } from 'react-bootstrap';
-import '../../assets/css/style.css'; // Custom CSS for additional styling
-import backgroundLogo from '../../assets/images/mainSection/background-landing.jpg'; // Import image for use in JSX
+import '../../assets/css/style.css';
+import backgroundLogo from '../../assets/images/mainSection/background-landing.jpg';
 
 const Main = () => {
 	return (
@@ -20,17 +20,6 @@ const Main = () => {
 							</div>
 						</div>
 					</Col>
-				</Row>
-			</Container>
-
-			<Container className="my-5">
-				<Row>
-					<Col md={6}>
-						<h2>Our Solutions</h2>
-						<p>Addressing post-harvest challenges with tech-enabled solutions.</p>
-						<Button variant="success">Tech-Enabled Marketplace</Button>
-					</Col>
-					<Col md={6}>{/* Place additional content or images here */}</Col>
 				</Row>
 			</Container>
 
