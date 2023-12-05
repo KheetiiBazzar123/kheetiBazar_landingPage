@@ -3,49 +3,63 @@
 
 /* Style for the overall About section */
 .about-section {
-    padding: 80px 0; /* Adjust the padding based on your design */
-    background-color: #f8f9fa; /* Set the background color */
-  }
-  
-  /* Style for section headings */
-  .section-heading {
-    color: #007bff; /* Set the heading color */
-  }
-  
-  /* Style for section subheadings */
-  .section-subheading {
-    color: #6c757d; /* Set the subheading color */
-  }
-  
-  /* Style for each subsection */
-  .about-subsection {
-    margin-bottom: 40px; /* Adjust the margin between subsections */
-  }
-  
-  /* Style for subsection content */
-  .about-subsection-content {
-    padding: 20px;
-  }
-  
-  /* Style for subsection images */
-  .about-subsection-image img {
-    width: 100%; /* Make the image fill its container */
-    border-radius: 8px; /* Add a border radius for rounded corners */
-  }
-  
-  /* Media query for responsive design */
-  @media (max-width: 768px) {
-    /* Adjust styles for smaller screens */
-    .about-subsection {
-      flex-direction: column-reverse; /* Reverse the order of columns for smaller screens */
-    }
-  
-    .about-subsection-content,
-    .about-subsection-image {
-      width: 100%; /* Make content and image take full width on smaller screens */
-      text-align: center; /* Center text content */
-    }
-  }
+	padding: 80px 0; /* Adjust the padding based on your design */
+	background-color: #f8f9fa; /* Set the background color */
+}
 
-  
-  
+/* Style for section headings */
+.section-heading {
+	color: #007bff; /* Set the heading color */
+}
+
+/* Style for section subheadings */
+.section-subheading {
+	color: #6c757d; /* Set the subheading color */
+}
+
+/* Style for each subsection */
+.about-subsection {
+	margin-bottom: 40px; /* Adjust the margin between subsections */
+}
+
+/* Style for subsection content */
+.about-subsection-content {
+	padding: 20px;
+}
+
+/* Style for subsection images */
+.about-subsection-image img {
+	width: 100%; /* Make the image fill its container */
+	border-radius: 8px; /* Add a border radius for rounded corners */
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+	/* Adjust styles for smaller screens */
+	.about-subsection {
+		flex-direction: column-reverse; /* Reverse the order of columns for smaller screens */
+	}
+
+	.about-subsection-content,
+	.about-subsection-image {
+		width: 100%; /* Make content and image take full width on smaller screens */
+		text-align: center; /* Center text content */
+	}
+}
+.nav-item-right {
+	justify-content: right;
+}
+.nav-top {
+	padding: 4px !important;
+}
+.contact-link {
+	border: 1px solid #fff !important;
+	padding: 6px !important;
+	/* margin: 10px; */
+	height: 38px !important;
+	padding-top: 4px !important;
+	margin-top: 5px !important;
+}
+.navbar-links {
+	font-size: 18px;
+}
