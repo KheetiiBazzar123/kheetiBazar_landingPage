@@ -23,3 +23,151 @@ variables
 	--spacing: 0.25rem;
 	--radius: 0.5rem;
 }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-primary);
+  line-height: 1.6;
+  color: var(--clr-grey-1);
+  background-color: var(--clr-grey-10);
+}
+
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+
+  @media (min-width: 768px) {
+    width: 80%;
+  }
+
+  @media (min-width: 992px) {
+    width: 75%;
+  }
+
+  @media (min-width: 1200px) {
+    width: 70%;
+  }
+}
+
+
+.flex {
+	display: flex;
+  }
+  
+  .flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .flex-column {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+  }
+  
+  .col {
+	padding-right: 15px;
+	padding-left: 15px;
+	flex-basis: 0;
+	flex-grow: 1;
+	max-width: 100%;
+  }
+  
+  @media (min-width: 480px) {
+	.col-2 { flex: 0 0 16.66667%; max-width: 16.66667%; }
+	.col-3 { flex: 0 0 25%; max-width: 25%; }
+	.col-4 { flex: 0 0 33.33333%; max-width: 33.33333%; }
+  }
+  
+  @media (min-width: 768px) {
+	.col-md-2 { flex: 0 0 16.66667%; max-width: 16.66667%; }
+	.col-md-3 { flex: 0 0 25%; max-width: 25%; }
+	.col-md-4 { flex: 0 0 33.33333%; max-width: 33.33333%; }
+  }
+  
+  @media (min-width: 992px) {
+	.col-lg-2 { flex: 0 0 16.66667%; max-width: 16.66667%; }
+	.col-lg-3 { flex: 0 0 25%; max-width: 25%; }
+	.col-lg-4 { flex: 0 0 33.33333%; max-width: 33.33333%; }
+  }
+  
+  @media (min-width: 1200px) {
+	.col-xl-2 { flex: 0 0 16.66667%; max-width: 16.66667%; }
+	.col-xl-3 { flex: 0 0 25%; max-width: 25%; }
+	.col-xl-4 { flex: 0 0 33.33333%; max-width: 33.33333%; }
+  }
+  
+
+@media (min-width: 480px) {
+  .col {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col {
+    flex-basis: 33.3333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col {
+    flex-basis: 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col {
+    flex-basis: 20%;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.75rem;
+
+  @media (min-width: 768px) {
+    margin-bottom: 1rem;
+  }
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+
+@media (min-width: 768px) {
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 2.25rem; }
+}
+
+
+.footer-bottom {
+  @media (max-width: 768px) {
+    text-align: center;
+
+    p {
+      text-align: center;
+      margin-top: 1rem;
+    }
+  }
+}
+
+

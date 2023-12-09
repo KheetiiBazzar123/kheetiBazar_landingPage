@@ -207,8 +207,8 @@ a:hover {
 }
 
 .header .logo {
-	height: 30px; /* Adjust as per your logo's aspect ratio */
-	margin-right: 10px; /* Space between logo and brand name */
+	height: 30px;
+	margin-right: 10px;
 }
 
 .header .brand-name {
@@ -216,13 +216,9 @@ a:hover {
 }
 
 .header .nav-link {
-	color: #fff; /* For the navigation links */
+	color: #fff;
 }
 
-/* Adjust the colors, spacing, and other properties to match the design provided */
-/*--------------------------Header End---------------------------------------  */
-
-/*--------------------------Body/Main Start---------------------------------------  */
 
 .main-background {
 	position: relative;
@@ -503,3 +499,4 @@ a:hover {
 }
 
 /*--------------------------Footer End---------------------------------------  */
+
