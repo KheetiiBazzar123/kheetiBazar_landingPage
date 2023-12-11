@@ -1,10 +1,11 @@
-import { Header } from "./components/layout";
+import { Header ,Footer } from "./components/layout";
 function App() {
 	return (
 		<>
 			<Header />
-			{/* <Main />
-			<Footer /> */}
+			{/* <Main /> */}
+			<Footer /> 
+
 		</>
 	);
 }

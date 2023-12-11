@@ -13,9 +13,10 @@ const Header = () => {
             className="d-inline-block align-top"
             alt="logo"
           />
+          <h3>Kheeti Bazzar</h3>
         </Navbar.Brand>
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+        <Navbar.Collapse id="basic-navbar-nav" className='basic-navbar-nav'>
+          <Nav className="me-auto basic-navbar-nav">
             <Nav.Link href="#home" className={styles.navLinkCustom}>Home</Nav.Link>
             <Nav.Link href="#about" className={styles.navLinkCustom}>About</Nav.Link>
             <Nav.Link href="#gallery" className={styles.navLinkCustom}>Gallery</Nav.Link>
@@ -23,10 +24,11 @@ const Header = () => {
             <Nav.Link href="#testimonial" className={styles.navLinkCustom}>Testimonial</Nav.Link>
             <Nav.Link href="#contact" className={styles.navLinkCustom}>Contact</Nav.Link>
             </Nav>
-          <Nav className="me-auto">
+          
+        </Navbar.Collapse>
+        <Nav className={styles.navbarBrand}>
             <Nav.Link href="#get-started" className={styles.navLinkCustom + ' ' + styles.getStarted}>Get In Touch</Nav.Link>
           </Nav>
-        </Navbar.Collapse>
       </Container>
     </Navbar>
   );

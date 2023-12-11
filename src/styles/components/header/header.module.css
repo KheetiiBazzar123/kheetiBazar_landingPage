@@ -3,22 +3,32 @@
 .navbarCustom {
   background-color: #D9FBFB;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+
   display: flex;
   justify-content: center;
+  height: 10vh;
 }
 
-.navbarCustom .navbarBrand {
+.container {
   display: flex;
   align-items: center;
-  padding: 0.5rem 1rem;
-  margin-right: 1rem;
-  width: 20%;
-  border-right: 1px solid #333  
+  justify-content: space-between;
+  width: 70%;
+  border: 1px solid red;  
+}
+
+.navbarBrand {
+  display: flex;
+
+  align-items: center;
+  padding: 0.5rem 0rem;
+  width: 15%;
+  border: 1px solid #333 ;
+  /* right: 0; */
+  left: 0;
 }
 .navbarBrand img {
-  max-height: 40px;
+  max-height: 80px;
   margin-right: 10px;
 }
 
@@ -28,22 +38,21 @@
   font-weight: 500;
   text-transform: uppercase;
 }
-
-.container {
+#basic-navbar-nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 15px;
-  padding-right: 15px; /* Add padding to the right */
-  border: 1px solid red;  
+  width: 80%;
+  border: 1px solid #333
 }
+
 
 .getStarted {
   background-color: #4CAF50; /* Set the background color for the button */
   color: #fff; /* Set the text color */
-  border-radius: 5px; /* Round the corners */
-  padding: 0.5rem 1rem; /* Add padding */
+  padding: 0.5rem 0rem; /* Add padding */
   transition: background-color 0.3s ease-in-out; /* Smooth transition for hover effect */
+  left: 0;
 }
 
 .getStarted:hover {
