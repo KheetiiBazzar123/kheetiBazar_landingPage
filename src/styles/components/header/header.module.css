@@ -34,37 +34,37 @@
 	align-items: center;
 	justify-content: space-between;
 	padding-left: 15px;
-	padding-right: 15px; /* Add padding to the right */
+	padding-right: 15px;
 	border: 1px solid red;
 }
 
 .getStarted {
-	background-color: #4caf50; /* Set the background color for the button */
-	color: #fff; /* Set the text color */
-	border-radius: 5px; /* Round the corners */
-	padding: 0.5rem 1rem; /* Add padding */
-	transition: background-color 0.3s ease-in-out; /* Smooth transition for hover effect */
+	background-color: #4caf50;
+	color: #fff;
+	border-radius: 5px;
+	padding: 0.5rem 1rem;
+	transition: background-color 0.3s ease-in-out;
 }
 
 .getStarted:hover {
-	background-color: #3e8e41; /* Change background color on hover */
+	background-color: #3e8e41;
 }
 
 @media (max-width: 991px) {
 	.navLinkCustom {
-		padding: 0.5rem 1rem; /* Adjust padding */
-		display: block; /* Stack the links vertically */
+		padding: 0.5rem 1rem;
+		display: block;
 	}
 
 	.getStarted {
-		width: 100%; /* Full width for the button */
-		margin-top: 1rem; /* Add space above the button */
+		width: 100%;
+		margin-top: 1rem;
 	}
 }
 
 @media (max-width: 575px) {
 	.navbarBrand img {
-		max-height: 30px; /* Adjust the logo size for small screens */
+		max-height: 30px;
 	}
 }
 .navbar-light {

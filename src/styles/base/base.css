@@ -22,66 +22,59 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* Set up a decent box model on the root element */
 html {
   box-sizing: border-box;
-  font-size: 16px; /* Good for setting a baseline font size */
+  font-size: 16px;
 }
 
-/* Set defaults for the body */
 body {
   line-height: 1;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  color: #333; /* Default text color */
-  background-color: #fff; /* Default background color */
+  color: #333;
+  background-color: #fff;
 }
 
-/* Make sure that all elements respect the box-sizing */
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-/* Set core root variables */
 :root {
-  --primary-color: #007bff; /* Primary color for your theme */
-  --secondary-color: #6c757d; /* Secondary color for your theme */
-  --success-color: #28a745; /* Success state color */
-  --info-color: #17a2b8; /* Info state color */
-  --warning-color: #ffc107; /* Warning state color */
-  --danger-color: #dc3545; /* Danger state color */
-  --light-color: #f8f9fa; /* Light color for backgrounds */
-  --dark-color: #343a40; /* Dark color for text or backgrounds */
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --success-color: #28a745;
+  --info-color: #17a2b8;
+  --warning-color: #ffc107;
+  --danger-color: #dc3545;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-/* Typography base */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 1.2;
 }
 
 h1 {
-  font-size: 2.5rem; /* Example for h1 */
+  font-size: 2.5rem;
 }
 
-/* Other heading styles (h2, h3, h4, h5, h6) can be set here */
 
 p {
   line-height: 1.5;
-  margin-bottom: 1rem; /* Spacing after paragraphs */
+  margin-bottom: 1rem;
 }
 
 a {
   color: var(--primary-color);
-  text-decoration: none; /* No underline */
-  background-color: transparent; /* No background */
+  text-decoration: none;
+  background-color: transparent;
 
   &:hover {
     color: var(--dark-color);
@@ -105,4 +98,3 @@ button {
   }
 }
 
-/* You can continue to add more global styles and variables as needed... */

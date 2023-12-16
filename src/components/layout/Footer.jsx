@@ -1,26 +1,30 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faTwitter, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import styles from '../../styles/components/footer/footer.module.css';
-
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faFacebookF, faTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
 	return (
 		<footer className={styles.footer}>
 			<Container>
-				<Row>
-					<Col className={styles.contactInfo}>
-						<h2>Get In Touch</h2>
-						<p>Phone: +61 3 8376 6284</p>
-						<p>Email: contact@domain.com</p>
-						<p>Address: 121 King Street, Melbourne Victoria 3000, Australia</p>
-						<div className={styles.socialIcons}>
-							{/* <FontAwesomeIcon icon={faFacebookF} className={styles.icon} />
-							<FontAwesomeIcon icon={faTwitter} className={styles.icon} />
-							<FontAwesomeIcon icon={faInstagram} className={styles.icon} />
-							<FontAwesomeIcon icon={faYoutube} className={styles.icon} /> */}
-						</div>
+				<Row className={styles.container}>
+					<Col md={6} lg={3}>
+						<h4 className={styles.footerColTitle}>company</h4>
+						<ul className={styles.footerColList}>
+							<li>
+								<a href="#">about us</a>
+							</li>
+							<li>
+								<a href="#">our services</a>
+							</li>
+							<li>
+								<a href="#">privacy policy</a>
+							</li>
+							<li>
+								<a href="#">affiliate program</a>
+							</li>
+						</ul>
 					</Col>
 					<Col md={6} lg={3}>
 						<h4 className={styles.footerColTitle}>get help</h4>
