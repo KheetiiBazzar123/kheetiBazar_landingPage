@@ -1,11 +1,12 @@
-import { Header ,Footer } from "./components/layout";
+import { Header, Footer } from './components/layout';
+import { HeroPage } from './components/sections';
+import './assets/css/style.css';
 function App() {
 	return (
 		<>
 			<Header />
-			{/* <Main /> */}
-			<Footer /> 
-
+			<HeroPage />
+			<Footer />
 		</>
 	);
 }
