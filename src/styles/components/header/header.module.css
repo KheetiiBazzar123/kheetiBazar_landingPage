@@ -1,78 +1,72 @@
 /* header.module.css */
 
 .navbarCustom {
-  background-color: #D9FBFB;
-  width: 100%;
-
-  display: flex;
-  justify-content: center;
-  height: 10vh;
+	background-color: #d9fbfb;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 70%;
-  border: 1px solid red;  
-}
-
-.navbarBrand {
-  display: flex;
-
-  align-items: center;
-  padding: 0.5rem 0rem;
-  width: 15%;
-  border: 1px solid #333 ;
-  /* right: 0; */
-  left: 0;
+.navbarCustom .navbarBrand {
+	display: flex;
+	align-items: center;
+	padding: 0.5rem 1rem;
+	margin-right: 1rem;
+	width: 20%;
+	border-right: 1px solid #333;
 }
 .navbarBrand img {
-  max-height: 80px;
-  margin-right: 10px;
+	max-height: 40px;
+	margin-right: 10px;
 }
 
 .navLinkCustom {
-  color: #333;
-  margin-right: 1rem;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-#basic-navbar-nav{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 80%;
-  border: 1px solid #333
+	color: #333;
+	margin-right: 1rem;
+	font-weight: 500;
+	text-transform: uppercase;
 }
 
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 15px;
+	padding-right: 15px; /* Add padding to the right */
+	border: 1px solid red;
+}
 
 .getStarted {
-  background-color: #4CAF50; /* Set the background color for the button */
-  color: #fff; /* Set the text color */
-  padding: 0.5rem 0rem; /* Add padding */
-  transition: background-color 0.3s ease-in-out; /* Smooth transition for hover effect */
-  left: 0;
+	background-color: #4caf50; /* Set the background color for the button */
+	color: #fff; /* Set the text color */
+	border-radius: 5px; /* Round the corners */
+	padding: 0.5rem 1rem; /* Add padding */
+	transition: background-color 0.3s ease-in-out; /* Smooth transition for hover effect */
 }
 
 .getStarted:hover {
-  background-color: #3e8e41; /* Change background color on hover */
+	background-color: #3e8e41; /* Change background color on hover */
 }
 
 @media (max-width: 991px) {
-  .navLinkCustom {
-    padding: 0.5rem 1rem; /* Adjust padding */
-    display: block; /* Stack the links vertically */
-  }
+	.navLinkCustom {
+		padding: 0.5rem 1rem; /* Adjust padding */
+		display: block; /* Stack the links vertically */
+	}
 
-  .getStarted {
-    width: 100%; /* Full width for the button */
-    margin-top: 1rem; /* Add space above the button */
-  }
+	.getStarted {
+		width: 100%; /* Full width for the button */
+		margin-top: 1rem; /* Add space above the button */
+	}
 }
 
 @media (max-width: 575px) {
-  .navbarBrand img {
-    max-height: 30px; /* Adjust the logo size for small screens */
-  }
+	.navbarBrand img {
+		max-height: 30px; /* Adjust the logo size for small screens */
+	}
+}
+.navbar-light {
+	height: 79px !important;
 }
