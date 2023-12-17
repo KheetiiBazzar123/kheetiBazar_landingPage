@@ -14,3 +14,21 @@
 .hero-container {
 	background-color: rgb(217, 251, 251);
 }
+
+.image-container {
+	position: relative;
+}
+
+.big-image {
+	width: 100%;
+}
+
+.fixed-section {
+	position: absolute;
+	top: 50%; /* Adjust this value to position it as desired */
+	left: 50%; /* Adjust this value to position it as desired */
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a background color for better visibility */
+	padding: 20px;
+	/* Add any other styling you need for the fixed section */
+}
