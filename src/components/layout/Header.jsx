@@ -9,7 +9,6 @@ const Header = () => {
 			<Container className={styles.container}>
 				<Navbar.Brand href="#home" className={styles.navbarBrand}>
 					<img src={logo} className="d-inline-block align-top " alt="logo" />
-					<h3>Kheetii Bazzar</h3>
 				</Navbar.Brand>
 				<Navbar.Collapse id="basic-navbar-nav" className="basic-navbar-nav">
 					<Nav className="me-auto basic-navbar-nav">

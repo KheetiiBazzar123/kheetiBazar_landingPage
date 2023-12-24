@@ -1,0 +1,59 @@
+/* HeroPage.module.css */
+.heroContainer {
+	display: flex;
+	padding: 2%;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	border: 1px solid red;
+}
+
+.rowStyle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	height: 60%;
+	border: 1px solid red;
+}
+
+.heroHeading {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	height: auto;
+	justify-content: center;
+}
+
+.colStyle {
+	padding: 0;
+	display: flex;
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+}
+
+.imageStyle {
+	width: 100%;
+	height: 100%;
+	border: 1px solid red;
+	object-fit: contain;
+}
+
+.yellowBackground {
+	background-color: #facc06;
+}
+
+.heading1 {
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 15px;
+	font-family: Arial, sans-serif;
+}
+
+.heading3 {
+	font-size: 1.5em;
+	line-height: 1.4;
+	font-family: Georgia, serif;
+}
+
