@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import HeroImage from '../../assets/images/mainSection/HeroImage.jpg';
-import styles from '../../styles/heroPage/heroPage.module.css';
+import styles from '../../styles/components/heroPage/heroPage.module.css';
 
 const HeroPage = () => {
 	return (
