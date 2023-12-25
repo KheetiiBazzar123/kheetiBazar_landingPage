@@ -10,11 +10,11 @@ const HeroPage = () => {
 				<Container fluid className={styles.heroContainer}>
 					<Row className={styles.rowStyle}>
 						<Col className={`${styles.colStyle} ${styles.yellowBackground}`}>
-							<div>
+							<div className={styles.contentPart}>
 								<h1 className={styles.heading1}>We Are Here For You 😊</h1>
 								<h3 className={styles.heading3}>
-									Our platform is a game-changer for You. With direct access to a vast market, farmers can now sell their produce at
-									better prices, substantially increasing their profits.
+									Our platform is a game-changer for You. With direct access to a vast market, farmers can now sell their produce at better
+									prices, substantially increasing their profits.
 								</h3>
 							</div>
 						</Col>
