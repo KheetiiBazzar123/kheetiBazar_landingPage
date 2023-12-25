@@ -10,8 +10,8 @@ const Header = () => {
 				<Navbar.Brand href="#home" className={styles.navbarBrand}>
 					<img src={logo} className="d-inline-block align-top " alt="logo" />
 				</Navbar.Brand>
-				<Navbar.Collapse id="basic-navbar-nav" className="basic-navbar-nav">
-					<Nav className="me-auto basic-navbar-nav">
+				<Navbar.Collapse id="basic-navbar-nav" className="navLink-Top basic-navbar-nav">
+					<Nav className="me-auto basic-navbar-nav navLink">
 						<Nav.Link href="#home" className={styles.navLinkCustom}>
 							Home
 						</Nav.Link>
